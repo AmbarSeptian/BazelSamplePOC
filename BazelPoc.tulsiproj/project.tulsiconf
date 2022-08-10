@@ -1,0 +1,12 @@
+{
+  "configDefaults" : {
+    "optionSet" : {
+
+    }
+  },
+  "packages" : [
+    "ios/PocUITests"
+  ],
+  "projectName" : "BazelPoc",
+  "workspaceRoot" : ".."
+}

@@ -1,0 +1,23 @@
+build --apple_platform_type=ios
+
+# Somehow we must change this version to 10.7
+# it because when we compile cc_binary and we set the ios_minimum_os to 10.0
+# the flag of mmacos-min-version are respect to the ios_minimum_os instead of mac_minimum_os
+# if we doesn't change the ios min version it will make the compiler failed to compile
+# -stdlib=libc++ require MacOS 10.7 or later
+# but this flag still working well when we run on iOS compiling
+build --ios_minimum_os=13.0
+
+build --spawn_strategy=local
+build --features=swift.use_global_module_cache
+build --swiftcopt=-whole-module-optimization 
+build --host_swiftcopt=-whole-module-optimization
+build --define=apple.experimental.tree_artifact_outputs=1 
+
+test --curses=no
+test --compilation_mode=fastbuild
+test --show_timestamps
+test --verbose_failures
+test --test_output=all
+test --build_tests_only
+test --test_timeout=3600

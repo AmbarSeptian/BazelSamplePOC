@@ -1,0 +1,19 @@
+{
+  "optionSet" : {
+    "BazelPath" : {
+      "p" : "/opt/homebrew/bin/bazelisk"
+    },
+    "DeletePreviousXcodeproj" : {
+      "p" : "YES"
+    },
+    "OpenXcode" : {
+      "p" : "YES"
+    },
+    "WorkspaceRootPath" : {
+      "p" : "/Users/ambar.septian/Documents/BazelPoc"
+    },
+    "XcodeprojOutputPath" : {
+      "p" : "/Users/ambar.septian/Documents/BazelPoc"
+    }
+  }
+}

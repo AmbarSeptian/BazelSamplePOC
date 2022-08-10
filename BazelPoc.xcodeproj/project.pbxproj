@@ -3,361 +3,990 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9391340028A0EE5D00AB841F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939133FF28A0EE5D00AB841F /* AppDelegate.swift */; };
-		9391340228A0EE5D00AB841F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9391340128A0EE5D00AB841F /* SceneDelegate.swift */; };
-		9391340428A0EE5D00AB841F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9391340328A0EE5D00AB841F /* ViewController.swift */; };
-		9391340728A0EE5D00AB841F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9391340528A0EE5D00AB841F /* Main.storyboard */; };
-		9391340928A0EE5E00AB841F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9391340828A0EE5E00AB841F /* Assets.xcassets */; };
-		9391340C28A0EE5E00AB841F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9391340A28A0EE5E00AB841F /* LaunchScreen.storyboard */; };
+		A35DC9F038D4C58C00000000 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361164E38D4C58C00000000 /* UITests.swift */; };
+		A35DC9F080FFA16A00000000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361164E80FFA16A00000000 /* AppDelegate.swift */; };
+		A35DC9F0952594C600000000 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361164E952594C600000000 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		886C8937ABE21F6300000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1BA571F352DF7CE00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B3D3F12ABE21F6200000000;
+		};
+		886C8937CF22033100000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1BA571F352DF7CE00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D54703CF22033000000000;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		939133FC28A0EE5D00AB841F /* BazelPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BazelPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		939133FF28A0EE5D00AB841F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9391340128A0EE5D00AB841F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9391340328A0EE5D00AB841F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9391340628A0EE5D00AB841F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9391340828A0EE5E00AB841F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9391340B28A0EE5E00AB841F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9391340D28A0EE5F00AB841F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9361164E13068E0400000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; path = BUILD; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		9361164E13068E0400000001 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; path = BUILD; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		9361164E1DB5D7E400000000 /* _idx_Source_23F94B4B_ios_min13.0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = _idx_Source_23F94B4B_ios_min13.0.framework; path = Source.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9361164E38D4C58C00000000 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
+		9361164E441184FA00000000 /* libSource.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSource.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9361164E80FFA16A00000000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9361164E853227C000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9361164E853227C000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9361164E90D4868E00000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "BazelPoc.xcodeproj/.tulsi/tulsi-execution-root/bazel-tulsi-includes/x/x/ios/PocUITests/PocUITests.__internal__.__test_bundle-intermediates/Info.plist"; sourceTree = SOURCE_ROOT; };
+		9361164E952594C600000000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9361164EC1DCF67400000000 /* PocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = PocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9361164EC437E09100000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "BazelPoc.xcodeproj/.tulsi/tulsi-execution-root/bazel-tulsi-includes/x/x/ios/PocApp/PocApp-intermediates/Info.plist"; sourceTree = SOURCE_ROOT; };
+		9361164EF457DA4A00000000 /* PocApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = PocApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		939133F928A0EE5D00AB841F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		939133F328A0EE5D00AB841F = {
+		3927341C1F7D4C5D00000000 /* PocUITests */ = {
 			isa = PBXGroup;
 			children = (
-				939133FE28A0EE5D00AB841F /* BazelPoc */,
-				939133FD28A0EE5D00AB841F /* Products */,
+				3927341CD086927200000000 /* PocUITests.__internal__.__test_bundle-intermediates */,
 			);
+			name = PocUITests;
 			sourceTree = "<group>";
 		};
-		939133FD28A0EE5D00AB841F /* Products */ = {
+		3927341C3EFA98BA00000000 /* PocUITests */ = {
 			isa = PBXGroup;
 			children = (
-				939133FC28A0EE5D00AB841F /* BazelPoc.app */,
+				9361164E13068E0400000001 /* BUILD */,
+				9361164E853227C000000001 /* Info.plist */,
+				9361164E38D4C58C00000000 /* UITests.swift */,
+			);
+			path = PocUITests;
+			sourceTree = "<group>";
+		};
+		3927341C5440E09F00000000 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				3927341C5440E09F00000001 /* x */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		3927341C5440E09F00000001 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				3927341C6DD4609000000000 /* ios */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		3927341C55F10FB100000000 /* PocApp */ = {
+			isa = PBXGroup;
+			children = (
+				3927341CE860217200000000 /* PocApp-intermediates */,
+			);
+			name = PocApp;
+			sourceTree = "<group>";
+		};
+		3927341C6DD4609000000000 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				3927341C55F10FB100000000 /* PocApp */,
+				3927341C1F7D4C5D00000000 /* PocUITests */,
+			);
+			name = ios;
+			sourceTree = "<group>";
+		};
+		3927341C8EB0DA8300000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3927341CD130C63300000000 /* Indexer */,
+				9361164EF457DA4A00000000 /* PocApp.app */,
+				9361164EC1DCF67400000000 /* PocUITests.xctest */,
+				3927341CDB0367B400000000 /* bazel-tulsi-includes */,
+				9361164E441184FA00000000 /* libSource.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		939133FE28A0EE5D00AB841F /* BazelPoc */ = {
+		3927341CABE21F6200000000 /* PocApp */ = {
 			isa = PBXGroup;
 			children = (
-				939133FF28A0EE5D00AB841F /* AppDelegate.swift */,
-				9391340128A0EE5D00AB841F /* SceneDelegate.swift */,
-				9391340328A0EE5D00AB841F /* ViewController.swift */,
-				9391340528A0EE5D00AB841F /* Main.storyboard */,
-				9391340828A0EE5E00AB841F /* Assets.xcassets */,
-				9391340A28A0EE5E00AB841F /* LaunchScreen.storyboard */,
-				9391340D28A0EE5F00AB841F /* Info.plist */,
+				9361164E80FFA16A00000000 /* AppDelegate.swift */,
+				9361164E13068E0400000000 /* BUILD */,
+				9361164E853227C000000000 /* Info.plist */,
+				9361164E952594C600000000 /* ViewController.swift */,
 			);
-			path = BazelPoc;
+			path = PocApp;
+			sourceTree = "<group>";
+		};
+		3927341CB87EBED100000000 /* mainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				3927341C8EB0DA8300000000 /* Products */,
+				3927341CDBA8C12000000000 /* ios */,
+			);
+			name = mainGroup;
+			sourceTree = SOURCE_ROOT;
+		};
+		3927341CD086927200000000 /* PocUITests.__internal__.__test_bundle-intermediates */ = {
+			isa = PBXGroup;
+			children = (
+				9361164E90D4868E00000000 /* Info.plist */,
+			);
+			name = "PocUITests.__internal__.__test_bundle-intermediates";
+			sourceTree = "<group>";
+		};
+		3927341CD130C63300000000 /* Indexer */ = {
+			isa = PBXGroup;
+			children = (
+				9361164E1DB5D7E400000000 /* _idx_Source_23F94B4B_ios_min13.0.framework */,
+			);
+			name = Indexer;
+			sourceTree = "<group>";
+		};
+		3927341CDB0367B400000000 /* bazel-tulsi-includes */ = {
+			isa = PBXGroup;
+			children = (
+				3927341C5440E09F00000000 /* x */,
+			);
+			name = "bazel-tulsi-includes";
+			sourceTree = "<group>";
+		};
+		3927341CDBA8C12000000000 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				3927341CABE21F6200000000 /* PocApp */,
+				3927341C3EFA98BA00000000 /* PocUITests */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		3927341CE860217200000000 /* PocApp-intermediates */ = {
+			isa = PBXGroup;
+			children = (
+				9361164EC437E09100000000 /* Info.plist */,
+			);
+			name = "PocApp-intermediates";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		939133FB28A0EE5D00AB841F /* BazelPoc */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9391341028A0EE5F00AB841F /* Build configuration list for PBXNativeTarget "BazelPoc" */;
+/* Begin PBXLegacyTarget section */
+		99D54703CF22033000000000 /* _bazel_clean_ */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "\"/opt/homebrew/bin/bazelisk\" \"bazel-bin\"";
+			buildConfigurationList = 4714E75E581A95E900000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */;
 			buildPhases = (
-				939133F828A0EE5D00AB841F /* Sources */,
-				939133F928A0EE5D00AB841F /* Frameworks */,
-				939133FA28A0EE5D00AB841F /* Resources */,
+			);
+			buildToolPath = "${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_clean.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = _bazel_clean_;
+			passBuildSettingsInEnvironment = 1;
+			productName = _bazel_clean_;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		0B3D3F123EFA98BA00000000 /* PocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4714E75E790B696000000000 /* Build configuration list for PBXNativeTarget "PocUITests" */;
+			buildPhases = (
+				01B3FD6F196AC09700000000 /* build //ios/PocUITests:PocUITests */,
+				01B3FD6F6413E6E300000000 /* Swift dummy file generation */,
+				0BFC97850000000000000000 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0BB467CDCF22033100000000 /* PBXTargetDependency */,
+				0BB467CDABE21F6300000000 /* PBXTargetDependency */,
 			);
-			name = BazelPoc;
-			productName = BazelPoc;
-			productReference = 939133FC28A0EE5D00AB841F /* BazelPoc.app */;
+			name = PocUITests;
+			productName = PocUITests;
+			productReference = 9361164EC1DCF67400000000 /* PocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0B3D3F126D68C29C00000000 /* _idx_Source_23F94B4B_ios_min13.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4714E75EB35D85A500000000 /* Build configuration list for PBXNativeTarget "_idx_Source_23F94B4B_ios_min13.0" */;
+			buildPhases = (
+				0BFC97850000000000000001 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BB467CDCF22033100000000 /* PBXTargetDependency */,
+			);
+			name = _idx_Source_23F94B4B_ios_min13.0;
+			productName = Source;
+			productReference = 9361164E1DB5D7E400000000 /* _idx_Source_23F94B4B_ios_min13.0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0B3D3F12ABE21F6200000000 /* PocApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4714E75E60D2038300000000 /* Build configuration list for PBXNativeTarget "PocApp" */;
+			buildPhases = (
+				01B3FD6F597307D300000000 /* build //ios/PocApp:PocApp */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BB467CDCF22033100000000 /* PBXTargetDependency */,
+			);
+			name = PocApp;
+			productName = PocApp;
+			productReference = 9361164EF457DA4A00000000 /* PocApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0B3D3F12D6D7874600000000 /* Source */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4714E75E25FB75CE00000000 /* Build configuration list for PBXNativeTarget "Source" */;
+			buildPhases = (
+				01B3FD6F61CA6C1600000000 /* build //ios/PocUITests:Source */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BB467CDCF22033100000000 /* PBXTargetDependency */,
+			);
+			name = Source;
+			productName = Source;
+			productReference = 9361164E441184FA00000000 /* libSource.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		939133F428A0EE5D00AB841F /* Project object */ = {
+		A1BA571F352DF7CE00000000 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 1000;
 				TargetAttributes = {
-					939133FB28A0EE5D00AB841F = {
-						CreatedOnToolsVersion = 13.2.1;
+					0B3D3F123EFA98BA00000000 = {
+						TestTargetID = 0B3D3F12ABE21F6200000000;
 					};
 				};
 			};
-			buildConfigurationList = 939133F728A0EE5D00AB841F /* Build configuration list for PBXProject "BazelPoc" */;
-			compatibilityVersion = "Xcode 13.0";
-			developmentRegion = en;
+			buildConfigurationList = 4714E75E97C13ECF00000000 /* Build configuration list for PBXProject "BazelPoc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
-				Base,
 			);
-			mainGroup = 939133F328A0EE5D00AB841F;
-			productRefGroup = 939133FD28A0EE5D00AB841F /* Products */;
+			mainGroup = 3927341CB87EBED100000000 /* mainGroup */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				939133FB28A0EE5D00AB841F /* BazelPoc */,
+				0B3D3F12ABE21F6200000000 /* PocApp */,
+				0B3D3F123EFA98BA00000000 /* PocUITests */,
+				0B3D3F12D6D7874600000000 /* Source */,
+				99D54703CF22033000000000 /* _bazel_clean_ */,
+				0B3D3F126D68C29C00000000 /* _idx_Source_23F94B4B_ios_min13.0 */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		939133FA28A0EE5D00AB841F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
+/* Begin PBXShellScriptBuildPhase section */
+		01B3FD6F196AC09700000000 /* build //ios/PocUITests:PocUITests */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
 			files = (
-				9391340C28A0EE5E00AB841F /* LaunchScreen.storyboard in Resources */,
-				9391340928A0EE5E00AB841F /* Assets.xcassets in Resources */,
-				9391340728A0EE5D00AB841F /* Main.storyboard in Resources */,
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "build //ios/PocUITests:PocUITests";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //ios/PocUITests:PocUITests --bazel \"/opt/homebrew/bin/bazelisk\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
+		01B3FD6F597307D300000000 /* build //ios/PocApp:PocApp */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "build //ios/PocApp:PocApp";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //ios/PocApp:PocApp --bazel \"/opt/homebrew/bin/bazelisk\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
+		01B3FD6F61CA6C1600000000 /* build //ios/PocUITests:Source */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "build //ios/PocUITests:Source";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //ios/PocUITests:Source --bazel \"/opt/homebrew/bin/bazelisk\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
+		01B3FD6F6413E6E300000000 /* Swift dummy file generation */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Swift dummy file generation";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "# Script to generate specific Swift files Xcode expects when running tests.\nset -eu\nARCH_ARRAY=($ARCHS)\nSUFFIXES=(swiftdoc swiftmodule)\nfor ARCH in \"${ARCH_ARRAY[@]}\"\ndo\n  mkdir -p \"$OBJECT_FILE_DIR_normal/$ARCH/\"\n  touch \"$OBJECT_FILE_DIR_normal/$ARCH/$SWIFT_OBJC_INTERFACE_HEADER_NAME\"\n  for SUFFIX in \"${SUFFIXES[@]}\"\n  do\n    touch \"$OBJECT_FILE_DIR_normal/$ARCH/$PRODUCT_MODULE_NAME.$SUFFIX\"\n  done\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BFC97850000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				A35DC9F038D4C58C00000000 /* UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		939133F828A0EE5D00AB841F /* Sources */ = {
+		0BFC97850000000000000001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				9391340428A0EE5D00AB841F /* ViewController.swift in Sources */,
-				9391340028A0EE5D00AB841F /* AppDelegate.swift in Sources */,
-				9391340228A0EE5D00AB841F /* SceneDelegate.swift in Sources */,
+				A35DC9F080FFA16A00000000 /* AppDelegate.swift in Sources */,
+				A35DC9F0952594C600000000 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		9391340528A0EE5D00AB841F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9391340628A0EE5D00AB841F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		0BB467CDABE21F6300000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B3D3F12ABE21F6200000000 /* PocApp */;
+			targetProxy = 886C8937ABE21F6300000000 /* PBXContainerItemProxy */;
 		};
-		9391340A28A0EE5E00AB841F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9391340B28A0EE5E00AB841F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+		0BB467CDCF22033100000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D54703CF22033000000000 /* _bazel_clean_ */;
+			targetProxy = 886C8937CF22033100000000 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		9391340E28A0EE5F00AB841F /* Debug */ = {
+		7679B5802A74E01200000000 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios/PocUITests:PocUITests";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ambarseptian.BazelExampleTests;
+				PRODUCT_MODULE_NAME = PocUITests;
+				PRODUCT_NAME = PocUITests;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/ios/PocUITests";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TEST_TARGET_NAME = PocApp;
+				TULSI_BUILD_PATH = ios/PocUITests;
+				TULSI_TEST_RUNNER_ONLY = YES;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
 			};
-			name = Debug;
+			name = __TulsiTestRunner_Release;
 		};
-		9391340F28A0EE5F00AB841F /* Release */ = {
+		7679B5802A74E01200000001 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios/PocApp:PocApp";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ambarseptian.BazelExample;
+				PRODUCT_NAME = PocApp;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = ios/PocApp;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		7679B5802A74E01200000002 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				SWIFT_VERSION = 5.5;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = BazelPoc;
+				TULSI_VERSION = 0.10.1;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		7679B5802A74E01200000003 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios/PocUITests:Source";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = Source;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = ios/PocUITests;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		7679B580E998A25200000000 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios/PocUITests:PocUITests";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ambarseptian.BazelExampleTests;
+				PRODUCT_MODULE_NAME = PocUITests;
+				PRODUCT_NAME = PocUITests;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/ios/PocUITests";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TEST_TARGET_NAME = PocApp;
+				TULSI_BUILD_PATH = ios/PocUITests;
+				TULSI_TEST_RUNNER_ONLY = YES;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		7679B580E998A25200000001 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios/PocApp:PocApp";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ambarseptian.BazelExample;
+				PRODUCT_NAME = PocApp;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = ios/PocApp;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		7679B580E998A25200000002 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				SWIFT_VERSION = 5.5;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = BazelPoc;
+				TULSI_VERSION = 0.10.1;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		7679B580E998A25200000003 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios/PocUITests:Source";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = Source;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = ios/PocUITests;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		7679B580ECF3435400000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios/PocUITests:PocUITests";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ambarseptian.BazelExampleTests;
+				PRODUCT_MODULE_NAME = PocUITests;
+				PRODUCT_NAME = PocUITests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/ios/PocUITests";
+				TEST_TARGET_NAME = PocApp;
+				TULSI_BUILD_PATH = ios/PocUITests;
+				TULSI_TEST_RUNNER_ONLY = YES;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
 			};
 			name = Release;
 		};
-		9391341128A0EE5F00AB841F /* Debug */ = {
+		7679B580ECF3435400000001 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BazelPoc/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios/PocApp:PocApp";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ambarseptian.BazelExample;
+				PRODUCT_NAME = PocApp;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = ios/PocApp;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = Release;
+		};
+		7679B580ECF3435400000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(TULSI_EXECUTION_ROOT)",
+					"$(TULSI_WR)/bazel-bin",
+					"$(TULSI_WR)/bazel-genfiles",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ambarseptian.BazelPoc;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.5;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = BazelPoc;
+				TULSI_VERSION = 0.10.1;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = Release;
+		};
+		7679B580ECF3435400000003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios/PocUITests:Source";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = Source;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = ios/PocUITests;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = Release;
+		};
+		7679B580ECF3435400000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = Source;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/ios/PocApp";
+			};
+			name = Release;
+		};
+		7679B580F41915FD00000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios/PocUITests:PocUITests";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ambarseptian.BazelExampleTests;
+				PRODUCT_MODULE_NAME = PocUITests;
+				PRODUCT_NAME = PocUITests;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/ios/PocUITests";
+				TEST_TARGET_NAME = PocApp;
+				TULSI_BUILD_PATH = ios/PocUITests;
+				TULSI_TEST_RUNNER_ONLY = YES;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
 			};
 			name = Debug;
 		};
-		9391341228A0EE5F00AB841F /* Release */ = {
+		7679B580F41915FD00000001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BazelPoc/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios/PocApp:PocApp";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ambarseptian.BazelExample;
+				PRODUCT_NAME = PocApp;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = ios/PocApp;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = Debug;
+		};
+		7679B580F41915FD00000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(TULSI_EXECUTION_ROOT)",
+					"$(TULSI_WR)/bazel-bin",
+					"$(TULSI_WR)/bazel-genfiles",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ambarseptian.BazelPoc;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.5;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = BazelPoc;
+				TULSI_VERSION = 0.10.1;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = Debug;
+		};
+		7679B580F41915FD00000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios/PocUITests:Source";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = Source;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = ios/PocUITests;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = Debug;
+		};
+		7679B580F41915FD00000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = Source;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/ios/PocApp";
+			};
+			name = Debug;
+		};
+		9388A87628A3BF93007B1199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = Debug;
+		};
+		9388A87728A3BF93007B1199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = _bazel_clean_;
 			};
 			name = Release;
+		};
+		9388A87828A3BF93007B1199 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		9388A87928A3BF93007B1199 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		9388A87A28A3BF93007B1199 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Source;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		9388A87B28A3BF93007B1199 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Source;
+			};
+			name = __TulsiTestRunner_Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		939133F728A0EE5D00AB841F /* Build configuration list for PBXProject "BazelPoc" */ = {
+		4714E75E25FB75CE00000000 /* Build configuration list for PBXNativeTarget "Source" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9391340E28A0EE5F00AB841F /* Debug */,
-				9391340F28A0EE5F00AB841F /* Release */,
+				7679B580F41915FD00000003 /* Debug */,
+				7679B580ECF3435400000003 /* Release */,
+				7679B580E998A25200000003 /* __TulsiTestRunner_Debug */,
+				7679B5802A74E01200000003 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9391341028A0EE5F00AB841F /* Build configuration list for PBXNativeTarget "BazelPoc" */ = {
+		4714E75E581A95E900000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9391341128A0EE5F00AB841F /* Debug */,
-				9391341228A0EE5F00AB841F /* Release */,
+				9388A87628A3BF93007B1199 /* Debug */,
+				9388A87728A3BF93007B1199 /* Release */,
+				9388A87828A3BF93007B1199 /* __TulsiTestRunner_Debug */,
+				9388A87928A3BF93007B1199 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4714E75E60D2038300000000 /* Build configuration list for PBXNativeTarget "PocApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7679B580F41915FD00000001 /* Debug */,
+				7679B580ECF3435400000001 /* Release */,
+				7679B580E998A25200000001 /* __TulsiTestRunner_Debug */,
+				7679B5802A74E01200000001 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4714E75E790B696000000000 /* Build configuration list for PBXNativeTarget "PocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7679B580F41915FD00000000 /* Debug */,
+				7679B580ECF3435400000000 /* Release */,
+				7679B580E998A25200000000 /* __TulsiTestRunner_Debug */,
+				7679B5802A74E01200000000 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4714E75E97C13ECF00000000 /* Build configuration list for PBXProject "BazelPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7679B580F41915FD00000002 /* Debug */,
+				7679B580ECF3435400000002 /* Release */,
+				7679B580E998A25200000002 /* __TulsiTestRunner_Debug */,
+				7679B5802A74E01200000002 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4714E75EB35D85A500000000 /* Build configuration list for PBXNativeTarget "_idx_Source_23F94B4B_ios_min13.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7679B580F41915FD00000004 /* Debug */,
+				7679B580ECF3435400000004 /* Release */,
+				9388A87A28A3BF93007B1199 /* __TulsiTestRunner_Debug */,
+				9388A87B28A3BF93007B1199 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 939133F428A0EE5D00AB841F /* Project object */;
+	rootObject = A1BA571F352DF7CE00000000 /* Project object */;
 }
