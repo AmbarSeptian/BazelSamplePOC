@@ -1,0 +1,2 @@
+# BazelSamplePOC
+Bazel Sample project
